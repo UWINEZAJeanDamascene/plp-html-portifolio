@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="portifolio1.css">
+  <title>plp-portifolio</title>
+</head>
+<body>
+<div class="container">
+
+ <header>
+  <h1>my portifolio</h1>
+  <p class="author">JW</p>
+ </header> 
+ <nav>
+  <ul>
+    <li><a href="#my-bio" class="left">my-bio</a></li>
+    <li><a href="#skills" class="left">skills</a></li>
+    <li><a href="#contacts" class="left">contacts</a></li>
+    <li><a href="#projects" class="right">projects</a></li>
+  </ul>
+ </nav>
+ <main>
+  <h1 id="my-bio">my-bio</h1>
+  <img src="images/IMG_20220919_222327_223.jpg" alt="jw photo">
+  <p>my name is <strong>jay-winn</strong> and i am a web developer biginner with a passion for learning and creating new things.</p>
+ </main>
+
+ <h1 id="skill" >skills</h1>
+ <section id="skills">
+    <i class="fa-brands fa-html5"> html</i>
+  <i class="fa-brands fa-js">js</i>
+  <i class="fa-brands fa-css3-alt">css</i>
+  <i class="fa-brands fa-php">php</i>
+  <i class="fa-brands fa-github">github</i>
+  <i class="fa-brands fa-react">react</i>
+  <i class="fa-brands fa-python">python</i>
+  <i class="fa-solid fa-database">database</i>
+  <i class="fa-brands fa-uncharted">sf</i>
+ </section>
+ <section>
+  <h1 id="contacts">contacts</h1>
+  <ul>
+    <li>email-address:jayfcode@gmail.com</li>
+    <li>phone-number:123-456-2121</li>
+    <li>github:jaycode</li>
+    <li>linkedin:jay-winn</li>
+  </ul>
+ </section>
+
+ <h1 id="project">project</h1>
+ <p>here are some of my projrcts that i have worked on</p>
+ <section id="projects">
+  <figure>
+    <img src="images/study.jpeg" alt="image">
+    <figcaption>E-learning platform project</figcaption>
+  </figure>
+  <figure>
+    <img src="images/forex.jpeg" alt="image">
+    <figcaption>forex trading app project</figcaption>
+  </figure>
+  <figure>
+    <img src="images/e-letter-ecommerce-logo-template_155846-original.jpg" alt="image">
+    <figcaption>E-commerce website project</figcaption>
+  </figure>
+ </section>
+ <section id="register-form">
+  <h1>register-form</h1>
+  <form action="mailto:jaycode@gmail.com" enctype="multipart/form-data"  method="post">
+    <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+    
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+    
+        <fieldset>
+          <legend>Gender:</legend>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+        </fieldset><br>
+    
+        <label for="subjects">Subjects:</label>
+        <select id="subjects" name="subjects[]" multiple>
+          <option value="english">javascript</option>
+          <option value="math">python</option>
+          <option value="science">node.js</option>
+          <option value="art">react</option>
+          <option value="agriculture">htrml</option>
+          <option value="geography">css</option>
+          <option value="history">php</option>
+        </select><br><br>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+    
+        <input type="hidden" id="sessionId" name="sessionId" value="your_session_id">
+    
+        <button type="reset" >Cancel</button>
+        <button type="submit">Register</button>
+  </form>
+ </section>
+ <footer>
+          <a href="#insatgram" target="_blank"><i class="fa-brands fa-instagram"></i>instagram</a>
+          <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i>whatsapp</a>
+          <a href="#linkedin"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+          <a href="#X"><i class="fa-solid fa-x"></i>X</a>
+          <a href="https://mail.google.com/mail/u/0/" target="_blank"><i class="fa-solid fa-envelope"></i>email</a>
+          <a href="https://github.com/UWINEZAJeanDamascene/222005024/commit/48120c5d28de0afc7039a3b78a4dbe6d72fb8c0d" target="_blank"><i class="fa-brands fa-github"></i>github</a>
+
+ </footer>
+ <p>&COPY;2024 jay_winn developer</p>
+</div>
+</body>
+</html>
